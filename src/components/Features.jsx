@@ -10,6 +10,7 @@ const featureData = [
     body: "Allergies with severity levels. Current medications with exact doses. Known conditions. Blood type. Insurance info. The things a babysitter, ER nurse, or school nurse needs to see in 3 seconds.",
     tags: "Allergies • Medications • Conditions • Insurance",
     imageHint: "Care card health section. Peanut allergy badge, med entry.",
+    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=800&q=80",
     color: "bg-[#FBE4E9]" // Lighter coral-pop tint
   },
   {
@@ -17,6 +18,7 @@ const featureData = [
     body: "Nap schedule, bedtime routine, safe foods, avoid foods, favorite comfort items, how to handle a meltdown. Everything the babysitter wishes they knew before you left.",
     tags: "Routine • Foods • Preferences • Notes",
     imageHint: "Routine section. Schedule, food tags. Cozy, nurturing.",
+    image: "https://images.unsplash.com/photo-1555505019-8c3f1c4aba5f?auto=format&fit=crop&w=800&q=80",
     color: "bg-[#F9ECE0]" // Lighter honey tint
   },
   {
@@ -24,6 +26,7 @@ const featureData = [
     body: "Pediatrician name and number. Dentist. Emergency contacts with relationships. Pickup authorization list. School or daycare info, teacher name, classroom number. It all lives here now instead of in your brain.",
     tags: "Doctors • Emergency Contacts • School • Pickup List",
     imageHint: "Contacts section: pediatrician, emergency contacts, school info.",
+    image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80",
     color: "bg-[#EAEFF6]" // Lighter lavender tint
   },
   {
@@ -31,6 +34,7 @@ const featureData = [
     body: "Vaccination records, insurance cards, birth certificates, IEPs, sports physicals, custody agreements — snap a photo, it's stored and shareable. No more digging through your camera roll at the pediatrician's office.",
     tags: "Immunizations • Insurance • School Forms • Documents",
     imageHint: "Phone camera scanning insurance card → digital record.",
+    image: "https://images.unsplash.com/photo-1586282391129-76a6df230234?auto=format&fit=crop&w=800&q=80",
     color: "bg-[#EAF3EA]" // Lighter sage tint
   },
   {
@@ -38,6 +42,7 @@ const featureData = [
     body: "Clothing sizes. Shoe size. Diaper size. Favorite foods. Stuff grandma texts you about every single time she goes to the store. Now she can just check the link.",
     tags: "Clothing • Shoes • Diapers • Favorites",
     imageHint: "Grandma in store checking sizes on phone. Humorous, warm.",
+    image: "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=800&q=80",
     color: "bg-warm-white"
   }
 ];
@@ -100,10 +105,10 @@ export default function Features() {
                 className={`grid md:grid-cols-[1fr_1.1fr] gap-12 md:gap-24 items-center ${!isEven ? 'md:grid-cols-[1.1fr_1fr]' : ''}`}
               >
                 {/* Image Side */}
-                <div className={`feature-img w-full aspect-[4/3] rounded-[2rem] shadow-soft p-8 flex flex-col justify-center text-center relative overflow-hidden ${feature.color} ${!isEven ? 'md:order-2' : ''}`}>
+                <div className={`feature-img w-full aspect-[4/3] rounded-[2rem] shadow-soft flex flex-col justify-center text-center relative overflow-hidden ${feature.color} ${!isEven ? 'md:order-2' : ''}`}>
                    <div className="absolute inset-0 border-[8px] border-cloud/40 rounded-[2rem] pointer-events-none z-20" />
-                   <span className="relative z-10 font-mono text-[10px] md:text-xs font-bold text-deep-navy/40 mb-3 tracking-widest uppercase">Illustration Placeholder</span>
-                   <p className="relative z-10 text-sm md:text-base font-sans italic text-deep-navy/70 px-4 md:px-8 leading-relaxed font-medium">{feature.imageHint}</p>
+                   
+                   <img src={feature.image} alt={feature.title} className="w-full h-full object-cover relative z-10" />
                    
                    {/* Abstract background elements */}
                    <div className="absolute top-0 right-0 w-64 h-64 bg-cloud rounded-full opacity-40 -translate-y-1/2 translate-x-1/2" />
