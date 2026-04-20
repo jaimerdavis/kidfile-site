@@ -1,12 +1,15 @@
 import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 gsap.registerPlugin(ScrollTrigger);
 
 export default function FooterCTA() {
   const container = useRef(null);
+  const location = useLocation();
+  const isHome = location.pathname === '/';
+  const getHref = (hash) => isHome ? hash : `/${hash}`;
 
   useEffect(() => {
     let ctx = gsap.context(() => {
@@ -101,9 +104,9 @@ export default function FooterCTA() {
             {/* Links */}
             <div className="flex flex-col gap-5 text-[15px] font-sans">
               <span className="text-white/40 font-bold uppercase tracking-widest text-[11px] mb-2 font-mono">Product</span>
-              <a href="#features" className="text-white/80 hover:text-honey transition-colors">Features</a>
-              <a href="#pricing" className="text-white/80 hover:text-honey transition-colors">Pricing</a>
-              <a href="#how" className="text-white/80 hover:text-honey transition-colors">How It Works</a>
+              <a href={getHref('#features')} className="text-white/80 hover:text-honey transition-colors">Features</a>
+              <a href={getHref('#pricing')} className="text-white/80 hover:text-honey transition-colors">Pricing</a>
+              <a href={getHref('#how')} className="text-white/80 hover:text-honey transition-colors">How It Works</a>
             </div>
 
             <div className="flex flex-col gap-5 text-[15px] font-sans">
