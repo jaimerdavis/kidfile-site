@@ -123,13 +123,12 @@ export default function FooterCTA() {
               <span className="text-white/40 font-bold uppercase tracking-widest text-[11px] mb-2 font-mono">Company</span>
               <a href="#" className="text-white/80 hover:text-honey transition-colors">About</a>
               <a href="#" className="text-white/80 hover:text-honey transition-colors">Blog</a>
-              <a href="#" className="text-white/80 hover:text-honey transition-colors">Careers</a>
             </div>
 
             <div className="flex flex-col gap-5 text-[15px] font-sans col-span-2 md:col-span-1 pt-4 md:border-0 md:pt-0">
                <span className="text-white/40 font-bold uppercase tracking-widest text-[11px] mb-2 font-mono">Support</span>
-              <a href="#" className="text-white/80 hover:text-honey transition-colors">Help Center</a>
-              <a href="#" className="text-white/80 hover:text-honey transition-colors">Contact</a>
+              <Link to="/help" className="text-white/80 hover:text-honey transition-colors">Help Center</Link>
+              <Link to="/contact" className="text-white/80 hover:text-honey transition-colors">Contact</Link>
               <Link to="/faq" className="text-white/80 hover:text-honey transition-colors">FAQ</Link>
               <Link to="/trust-and-safety" className="text-white/80 hover:text-honey transition-colors">Trust & Safety</Link>
             </div>

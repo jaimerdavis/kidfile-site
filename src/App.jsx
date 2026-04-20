@@ -13,6 +13,8 @@ import PrivacyPolicy from './components/PrivacyPolicy'
 import DeleteAccount from './components/DeleteAccount'
 import FAQ from './components/FAQ'
 import TrustAndSafety from './components/TrustAndSafety'
+import HelpCenter from './components/HelpCenter'
+import Contact from './components/Contact'
 
 function App() {
   return (
@@ -36,6 +38,8 @@ function App() {
             <Route path="/privacy/delete-account" element={<DeleteAccount />} />
             <Route path="/faq" element={<FAQ />} />
             <Route path="/trust-and-safety" element={<TrustAndSafety />} />
+            <Route path="/help" element={<HelpCenter />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
         <FooterCTA />
