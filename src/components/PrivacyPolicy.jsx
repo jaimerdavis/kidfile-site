@@ -8,17 +8,17 @@ export default function PrivacyPolicy() {
   return (
     <main className="pt-32 pb-24 px-6 md:px-12 max-w-4xl mx-auto font-sans text-deep-navy">
       <div className="bg-white rounded-[2rem] md:rounded-[3rem] p-8 md:p-16 shadow-lg border border-border-light">
-        <h1 className="text-4xl md:text-5xl font-bold mb-4 font-sans tracking-tight">KidFile Privacy Policy</h1>
+        <h1 className="text-4xl md:text-5xl font-bold mb-4 font-sans tracking-tight">Kidfile Privacy Policy</h1>
         <p className="text-lg text-deep-navy/60 mb-12 font-medium">Effective Date: April 13, 2026</p>
 
         <div className="prose prose-lg max-w-none prose-headings:font-bold prose-headings:text-deep-navy prose-p:text-deep-navy/80 prose-li:text-deep-navy/80 prose-a:text-honey hover:prose-a:text-soft-sage transition-colors">
           <p>
-            KidFile ("we," "our," or "us") operates the KidFile mobile application (the "App"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information — and your children's information — when you use our App. Because KidFile is designed to store and manage sensitive information about minors, we take privacy extremely seriously. Please read this policy carefully. By downloading or using KidFile, you agree to the practices described below.
+            Kidfile ("we," "our," or "us") operates the Kidfile mobile application (the "App"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information — and your children's information — when you use our App. Because Kidfile is designed to store and manage sensitive information about minors, we take privacy extremely seriously. Please read this policy carefully. By downloading or using Kidfile, you agree to the practices described below.
           </p>
 
           <h2 className="text-2xl mt-8 mb-4">1. INFORMATION WE COLLECT</h2>
           <h3 className="text-xl mt-6 mb-3">1.1 Information You Provide Directly</h3>
-          <p>When you create an account and use KidFile, you may voluntarily provide the following categories of information:</p>
+          <p>When you create an account and use Kidfile, you may voluntarily provide the following categories of information:</p>
           <ul className="list-disc pl-6 mb-4 space-y-2">
             <li><strong>Account information:</strong> your name, email address, and password.</li>
             <li><strong>Child profile information:</strong> your child's name, date of birth, gender, photo, and any nickname or identifying details you choose to add.</li>
@@ -30,7 +30,7 @@ export default function PrivacyPolicy() {
 
           <h3 className="text-xl mt-6 mb-3">1.2 Information Collected Through Device Permissions</h3>
           <ul className="list-disc pl-6 mb-4 space-y-2">
-            <li><strong>Camera (android.permission.CAMERA):</strong> KidFile requests access to your device's camera solely to allow you to scan and capture documents directly within the App — such as insurance cards, immunization records, prescription labels, school forms, and other child-related paperwork. The camera is activated only when you explicitly choose to scan or photograph a document within the App. We do not access your camera in the background, and we do not use your camera for facial recognition, surveillance, behavioral tracking, or any purpose other than document capture initiated by you.</li>
+            <li><strong>Camera (android.permission.CAMERA):</strong> Kidfile requests access to your device's camera solely to allow you to scan and capture documents directly within the App — such as insurance cards, immunization records, prescription labels, school forms, and other child-related paperwork. The camera is activated only when you explicitly choose to scan or photograph a document within the App. We do not access your camera in the background, and we do not use your camera for facial recognition, surveillance, behavioral tracking, or any purpose other than document capture initiated by you.</li>
             <li><strong>Photo Library / Storage Access:</strong> If you choose to upload an existing photo from your device's gallery rather than taking a new one, we request read access to your device storage for that specific interaction. We do not continuously scan, monitor, or index your photo library.</li>
             <li><strong>Internet Access:</strong> Required to sync your data securely to our cloud servers so your information is backed up and accessible across devices, and to enable the Care Card sharing feature.</li>
           </ul>
@@ -58,7 +58,7 @@ export default function PrivacyPolicy() {
           <h2 className="text-2xl mt-8 mb-4">3. HOW WE SHARE YOUR INFORMATION</h2>
           <h3 className="text-xl mt-6 mb-3">3.1 Sharing You Control</h3>
           <p>
-            KidFile's Care Card feature allows you to generate a secure link containing selected information about your child (such as allergies, medications, emergency contacts, and medical details) and share that link with people you choose — grandparents, babysitters, daycare providers, co-parents, coaches, or medical professionals. You control exactly what information is included in each Care Card and who receives the link. You may revoke or expire any shared Care Card link at any time.
+            Kidfile's Care Card feature allows you to generate a secure link containing selected information about your child (such as allergies, medications, emergency contacts, and medical details) and share that link with people you choose — grandparents, babysitters, daycare providers, co-parents, coaches, or medical professionals. You control exactly what information is included in each Care Card and who receives the link. You may revoke or expire any shared Care Card link at any time.
           </p>
           
           <h3 className="text-xl mt-6 mb-3">3.2 Service Providers</h3>
@@ -83,10 +83,10 @@ export default function PrivacyPolicy() {
 
           <h2 className="text-2xl mt-8 mb-4">4. CHILDREN'S PRIVACY (COPPA AND INTERNATIONAL COMPLIANCE)</h2>
           <p>
-            KidFile is a tool for parents and legal guardians to manage their own children's information. The App is not directed at children and is not intended to be used by anyone under the age of 13 (or the applicable age of digital consent in your jurisdiction). Children do not create accounts or interact with the App directly.
+            Kidfile is a tool for parents and legal guardians to manage their own children's information. The App is not directed at children and is not intended to be used by anyone under the age of 13 (or the applicable age of digital consent in your jurisdiction). Children do not create accounts or interact with the App directly.
           </p>
           <p>
-            All child-related data entered into KidFile is provided by, and controlled by, the parent or legal guardian who holds the account. As the account holder, you represent that you have legal authority to provide your child's personal information and to share it via Care Card links at your discretion.
+            All child-related data entered into Kidfile is provided by, and controlled by, the parent or legal guardian who holds the account. As the account holder, you represent that you have legal authority to provide your child's personal information and to share it via Care Card links at your discretion.
           </p>
           <p>
             If we learn that we have inadvertently collected personal information directly from a child under 13 without verified parental consent, we will delete that information promptly. If you believe this has occurred, please contact us immediately at the address listed in Section 11.
@@ -111,7 +111,7 @@ export default function PrivacyPolicy() {
           <h2 className="text-2xl mt-8 mb-4">7. YOUR RIGHTS AND CHOICES</h2>
           <p>Depending on your jurisdiction, you may have the following rights:</p>
           <ul className="list-disc pl-6 mb-4 space-y-2">
-            <li><strong>Access:</strong> You can view all data stored in your KidFile account at any time directly within the App.</li>
+            <li><strong>Access:</strong> You can view all data stored in your Kidfile account at any time directly within the App.</li>
             <li><strong>Correction:</strong> You can edit or update any information in your child's profile or your account at any time.</li>
             <li><strong>Deletion:</strong> You can delete individual records, entire child profiles, or your full account from within the App. You may also email us to request deletion.</li>
             <li><strong>Data Export:</strong> You can request a portable copy of your data by contacting us.</li>
@@ -177,7 +177,7 @@ export default function PrivacyPolicy() {
             If you have any questions, concerns, or requests related to this Privacy Policy or our data practices, please contact us at:
           </p>
           <div className="bg-deep-navy/5 p-6 rounded-2xl my-4">
-            <p className="font-bold mb-1">KidFile</p>
+            <p className="font-bold mb-1">Kidfile</p>
             <p className="mb-1"><strong>Email:</strong> <a href="mailto:privacy@kidfileapp.com" className="text-honey hover:text-soft-sage transition-colors">privacy@kidfileapp.com</a></p>
             <p className="mb-0"><strong>Address:</strong> Sunrise, FL, United States</p>
           </div>
@@ -185,11 +185,11 @@ export default function PrivacyPolicy() {
 
           <h2 className="text-2xl mt-8 mb-4">12. CONSENT</h2>
           <p>
-            By creating an account and using the KidFile App, you acknowledge that you have read and understood this Privacy Policy and consent to the collection, use, and sharing of your information as described herein. You further represent that any child-related information you enter into the App is provided by you as the child's parent or legal guardian with full legal authority to do so.
+            By creating an account and using the Kidfile App, you acknowledge that you have read and understood this Privacy Policy and consent to the collection, use, and sharing of your information as described herein. You further represent that any child-related information you enter into the App is provided by you as the child's parent or legal guardian with full legal authority to do so.
           </p>
 
           <p className="mt-12 text-center text-sm font-medium text-deep-navy/40">
-            © 2026 KidFile. All rights reserved.
+            © 2026 Kidfile. All rights reserved.
           </p>
         </div>
       </div>

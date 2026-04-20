@@ -1,25 +1,25 @@
-KidFile — Frequently Asked Questions
+Kidfile — Frequently Asked Questions
 Straight answers, plain English, no fine print hiding anything important.
 
-What Is KidFile?
-What is KidFile, in one sentence?
+What Is Kidfile?
+What is Kidfile, in one sentence?
 It's the one place for everything someone needs to know to take care of your kid — shareable with anyone who helps, in one tap.
 How does it actually work?
-You add your kid, fill in the stuff that matters (allergies, medicine, emergency contacts, routine, sizes — whatever is relevant), and KidFile turns it into a clean, shareable page called a care card. When your babysitter, your mom, your co-parent, or a camp counselor needs the info, you send them one link. They open it, everything's there, and it's always up to date.
-Who is KidFile for?
+You add your kid, fill in the stuff that matters (allergies, medicine, emergency contacts, routine, sizes — whatever is relevant), and Kidfile turns it into a clean, shareable page called a care card. When your babysitter, your mom, your co-parent, or a camp counselor needs the info, you send them one link. They open it, everything's there, and it's always up to date.
+Who is Kidfile for?
 Anyone responsible for a kid's care. That usually starts with a parent, but the people who benefit most are everyone around you — the babysitter who needs the allergy list, the grandparent who forgets the shoe size, the co-parent who needs the insurance info, the camp counselor who needs the emergency contacts. You set it up once. Everyone else just opens the link.
 Is this a baby tracker?
-No. Baby trackers are about logging feeds, diapers, and sleep throughout the day. KidFile is about the information someone else needs when they're taking care of your kid. You can log daily things if you want to, but the heart of the app is the care card — the shareable page that replaces the 11-text babysitter briefing.
+No. Baby trackers are about logging feeds, diapers, and sleep throughout the day. Kidfile is about the information someone else needs when they're taking care of your kid. You can log daily things if you want to, but the heart of the app is the care card — the shareable page that replaces the 11-text babysitter briefing.
 What devices does it work on?
 iPhone and Android. A web version is on the way. There's also an Apple Wallet and Google Wallet card for emergency info you can keep on your phone's lock screen.
 
-What Goes in a KidFile?
+What Goes in a Kidfile?
 What kind of info can I add?
 As much or as little as you want. Common things parents add first: allergies, medications and doses, emergency contacts, daily routine (nap time, bedtime, meals), pediatrician info, insurance card, clothing and shoe sizes, and who's allowed to pick the kid up.
 Over time you can add vaccination records, school info, dietary preferences, care instructions, documents — whatever's useful. But you don't have to fill in everything on day one. Start with the basics and the app is already useful.
 Do I have to fill everything in to get started?
 No. Add your kid's name, one allergy or "no known allergies," and one emergency contact — and you already have a shareable care card. Everything else you can add whenever.
-Does KidFile remind me to keep things updated?
+Does Kidfile remind me to keep things updated?
 Yes, gently. If something hasn't been reviewed in a while — like a medication dose that might have changed or a shoe size from 6 months ago — the app will flag it on your home screen. It's a nudge, not a nag.
 Can I keep private notes that nobody else sees?
 Yes. Private parent notes are separate from the shared care card. Even people you've given access to won't see them.
@@ -28,7 +28,7 @@ Sharing With Caregivers
 How do I share my kid's info with someone?
 Two ways. You can invite someone by email — they create an account and get ongoing access. Or you can send a share link — they tap it and see the care card in their browser, no account needed. Most parents use the link for babysitters and the invite for co-parents or grandparents who help regularly.
 Can I control what each person sees?
-Yes. KidFile has built-in view modes for common situations — there's one for babysitters (the essentials), one for grandparents (a bit more), one for school or camp (what staff need), and one for emergencies (just the critical info). You can also customize what each view shows.
+Yes. Kidfile has built-in view modes for common situations — there's one for babysitters (the essentials), one for grandparents (a bit more), one for school or camp (what staff need), and one for emergencies (just the critical info). You can also customize what each view shows.
 Can I take someone's access away?
 Yes, instantly. One tap and their access is gone.
 Can I set a share link to expire?
@@ -39,7 +39,7 @@ Yes. The app logs every time someone opens a share link or views the profile ins
 Multiple Parents & Co-Parenting
 Can both parents access the same kid's profile?
 Yes. You can add another parent as a full co-owner with the same level of access you have. Both of you can update info, and changes sync in real time.
-Is KidFile useful for separated or divorced parents?
+Is Kidfile useful for separated or divorced parents?
 Very. Instead of texting back and forth about doctor appointments, insurance info, or medication changes, both parents see the same always-current care card. It reduces "you didn't tell me" moments and keeps the focus on the kid, not the communication friction.
 
 The Wallet Pass
@@ -47,7 +47,7 @@ What's the Wallet Pass?
 A digital card that lives in Apple Wallet or Google Wallet on your phone's lock screen. It shows your kid's name, age, critical allergies, medications, emergency contacts, and a QR code that opens a limited emergency view of the profile. Useful for you, your partner, grandparents — anyone who might need to pull up the info fast.
 
 Pricing
-How much does KidFile cost?
+How much does Kidfile cost?
 There's a free plan and a paid plan.
 Free — 1 kid, a basic care card, 1 share link. Free forever, no credit card needed.
 Standard ($4.99/month) — Multiple kids, full profiles, unlimited share links, document storage, custom access levels, caregiver chat, and smart features. Less than a pack of diapers.
@@ -67,14 +67,14 @@ Does my kid's name or health info ever appear in a web address?
 No. Share links use random codes. There's no way to guess a link or stumble onto someone's care card.
 Who on your team can see my data?
 Nobody, unless you contact support and ask for help. Even then, support tools limit what's visible and every action is logged.
-Is KidFile HIPAA compliant?
+Is Kidfile HIPAA compliant?
 We're not a healthcare provider, so HIPAA doesn't technically apply to us. But we apply the same standards — encryption, access controls, audit logs — because you're trusting us with health information and we take that seriously.
-Does KidFile collect information from my child?
-No. KidFile does not interact with children at all. Everything is entered by a parent or authorized guardian.
+Does Kidfile collect information from my child?
+No. Kidfile does not interact with children at all. Everything is entered by a parent or authorized guardian.
 
 Smart Features
-Does KidFile use AI?
-Yes, in a few practical ways. You can type or speak naturally — something like "Jamie is allergic to peanuts" — and the app will suggest the right fields to update. You can also snap a photo of a document (like an insurance card or vaccination record) and KidFile will pull out the key info for you to review.
+Does Kidfile use AI?
+Yes, in a few practical ways. You can type or speak naturally — something like "Jamie is allergic to peanuts" — and the app will suggest the right fields to update. You can also snap a photo of a document (like an insurance card or vaccination record) and Kidfile will pull out the key info for you to review.
 Does the AI change things automatically?
 Never. Every suggestion shows up as a draft. You review it, approve it, or throw it away. Nothing touches your kid's profile without your say-so.
 

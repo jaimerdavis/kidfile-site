@@ -43,7 +43,7 @@ export default function TrustAndSafety() {
           </p>
           <div className="text-lg md:text-xl text-deep-navy/70 leading-relaxed font-medium space-y-4 max-w-2xl bg-white/50 p-6 md:p-8 rounded-[2rem] border border-border-light shadow-sm">
             <p>
-              We built KidFile to help you share the right information with the right people at the right time. That only works if you trust us completely with what you put in here.
+              We built Kidfile to help you share the right information with the right people at the right time. That only works if you trust us completely with what you put in here.
             </p>
             <p>
               So here's exactly how we handle it — in plain English, not legal speak.
@@ -79,7 +79,7 @@ export default function TrustAndSafety() {
 
           <Section icon={LinkIcon} title="Your kid's info never leaks through a link">
             <p>
-              <strong className="text-deep-navy font-bold">When you share a care card, the link uses a random code</strong> — not your child's name, not their birthday, not anything identifiable. Nobody can guess a KidFile link. Nobody can stumble onto one by accident.
+              <strong className="text-deep-navy font-bold">When you share a care card, the link uses a random code</strong> — not your child's name, not their birthday, not anything identifiable. Nobody can guess a Kidfile link. Nobody can stumble onto one by accident.
             </p>
             <p>
               And when a share link expires or you turn it off, it's gone. Anyone who tries to open it sees a dead end.
@@ -88,7 +88,7 @@ export default function TrustAndSafety() {
 
           <Section icon={Eye} title="You control who sees what">
             <p>
-              <strong className="text-deep-navy font-bold">KidFile doesn't decide who gets access to your child's information. You do. Every time.</strong>
+              <strong className="text-deep-navy font-bold">Kidfile doesn't decide who gets access to your child's information. You do. Every time.</strong>
             </p>
             <ul className="space-y-3 mt-4">
               <li className="flex gap-3">
@@ -112,7 +112,7 @@ export default function TrustAndSafety() {
 
           <Section icon={ShieldPlus} title="We follow healthcare-grade security standards">
             <p>
-              <strong className="text-deep-navy font-bold">KidFile isn't a hospital or a doctor's office, so technically we're not required to follow healthcare privacy laws.</strong>
+              <strong className="text-deep-navy font-bold">Kidfile isn't a hospital or a doctor's office, so technically we're not required to follow healthcare privacy laws.</strong>
             </p>
             <p>
               But you're trusting us with your child's health information — allergies, medications, conditions, doctor's names — and we think that deserves the same level of care. So we hold ourselves to those standards anyway:
@@ -139,10 +139,10 @@ export default function TrustAndSafety() {
 
           <Section icon={Baby} title="We don't collect information from children">
             <p>
-              <strong className="text-deep-navy font-bold">KidFile is a tool for parents and guardians. Your child never interacts with the app.</strong>
+              <strong className="text-deep-navy font-bold">Kidfile is a tool for parents and guardians. Your child never interacts with the app.</strong>
             </p>
             <p>
-              We don't ask kids for anything — no names, no emails, no data of any kind. Everything in a KidFile profile is entered by an authorized adult.
+              We don't ask kids for anything — no names, no emails, no data of any kind. Everything in a Kidfile profile is entered by an authorized adult.
             </p>
             <p>
               We follow COPPA guidelines (the federal law that protects children's privacy online), not because we're required to, but because it's the right thing to do.
@@ -151,7 +151,7 @@ export default function TrustAndSafety() {
 
           <Section icon={EyeOff} title="Nobody on our team sees your data">
             <p>
-              <strong className="text-deep-navy font-bold">Your family's information is not visible to KidFile employees during normal operations. Period.</strong>
+              <strong className="text-deep-navy font-bold">Your family's information is not visible to Kidfile employees during normal operations. Period.</strong>
             </p>
             <p>
               If you contact support and ask for help with your account, a support team member may access limited information to assist you — but even then, sensitive fields are hidden by default, elevated permissions are required, and every action is logged.
@@ -163,10 +163,10 @@ export default function TrustAndSafety() {
 
           <Section icon={Package} title="Your data belongs to you">
             <p>
-              <strong className="text-deep-navy font-bold">You can export everything you've ever put into KidFile</strong> — every profile, every document, every log, every note — at any time from inside the app.
+              <strong className="text-deep-navy font-bold">You can export everything you've ever put into Kidfile</strong> — every profile, every document, every log, every note — at any time from inside the app.
             </p>
             <p>
-              If you decide KidFile isn't for you, you take your data and go. No hostage situations. No "contact us to request your data." It's yours. It was always yours.
+              If you decide Kidfile isn't for you, you take your data and go. No hostage situations. No "contact us to request your data." It's yours. It was always yours.
             </p>
             <p>
               If you delete a profile, it's gone from our servers. Not archived, not hidden, not "anonymized and retained." Deleted. If you delete your account, everything goes with it.
@@ -206,7 +206,7 @@ export default function TrustAndSafety() {
 
           <Section icon={Sparkles} title="What our smart features do (and don't do)">
             <p>
-              <strong className="text-deep-navy font-bold">KidFile includes optional AI features that help you fill out profiles faster</strong> — like turning a photo of an insurance card into organized data, or converting "he takes 5ml of Zyrtec at night" into the right fields.
+              <strong className="text-deep-navy font-bold">Kidfile includes optional AI features that help you fill out profiles faster</strong> — like turning a photo of an insurance card into organized data, or converting "he takes 5ml of Zyrtec at night" into the right fields.
             </p>
             <p className="font-bold text-deep-navy pt-2">Here's what matters:</p>
             <ul className="space-y-3 mt-4">
@@ -246,7 +246,7 @@ export default function TrustAndSafety() {
           <div className="absolute inset-0 bg-[linear-gradient(135deg,rgba(255,255,255,0.05)_0%,transparent_100%)]" />
           <h2 className="text-3xl md:text-5xl font-bold mb-8 relative z-10 tracking-tight">Ready to start?</h2>
           <a href="/#get-started" className="relative z-10 inline-flex items-center justify-center gap-3 bg-honey text-deep-navy px-8 py-4 rounded-full font-bold shadow-lg text-lg mb-6 hover:scale-105 transition-transform active:scale-95">
-            Start Your KidFile — Free <ArrowRight size={20} />
+            Start Your Kidfile — Free <ArrowRight size={20} />
           </a>
           <p className="text-white/60 font-medium text-sm md:text-base relative z-10">
             Same encryption. Same protection. Whether you're on free or paid.

@@ -16,7 +16,7 @@ export default function DeleteAccount() {
           </p>
           
           <p className="mt-12 text-center text-sm font-medium text-deep-navy/40">
-            © 2026 KidFile. All rights reserved.
+            © 2026 Kidfile. All rights reserved.
           </p>
         </div>
       </div>
