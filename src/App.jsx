@@ -11,6 +11,7 @@ import FooterCTA from './components/FooterCTA'
 import MobileStickyCTA from './components/MobileStickyCTA'
 import PrivacyPolicy from './components/PrivacyPolicy'
 import DeleteAccount from './components/DeleteAccount'
+import FAQ from './components/FAQ'
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
             } />
             <Route path="/privacy" element={<PrivacyPolicy />} />
             <Route path="/privacy/delete-account" element={<DeleteAccount />} />
+            <Route path="/faq" element={<FAQ />} />
           </Routes>
         </div>
         <FooterCTA />

@@ -120,6 +120,7 @@ export default function FooterCTA() {
                <span className="text-white/40 font-bold uppercase tracking-widest text-[11px] mb-2 font-mono">Support</span>
               <a href="#" className="text-white/80 hover:text-honey transition-colors">Help Center</a>
               <a href="#" className="text-white/80 hover:text-honey transition-colors">Contact</a>
+              <Link to="/faq" className="text-white/80 hover:text-honey transition-colors">FAQ</Link>
               <Link to="/privacy" className="text-white/80 hover:text-honey transition-colors">Privacy</Link>
             </div>
             
