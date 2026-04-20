@@ -121,18 +121,19 @@ export default function FooterCTA() {
               <a href="#" className="text-white/80 hover:text-honey transition-colors">Help Center</a>
               <a href="#" className="text-white/80 hover:text-honey transition-colors">Contact</a>
               <Link to="/faq" className="text-white/80 hover:text-honey transition-colors">FAQ</Link>
-              <Link to="/privacy" className="text-white/80 hover:text-honey transition-colors">Privacy</Link>
+              <Link to="/trust-and-safety" className="text-white/80 hover:text-honey transition-colors">Trust & Safety</Link>
             </div>
             
           </div>
 
           {/* Bottom Bar */}
           <div className="flex flex-col md:flex-row items-center justify-between border-t border-white/10 mt-16 pt-8 gap-6 md:gap-0">
-            <div className="flex items-center gap-6 text-[13px] font-sans text-white/50 font-medium w-full md:w-auto justify-between md:justify-start">
+            <div className="flex flex-col md:flex-row items-start md:items-center gap-4 md:gap-6 text-[13px] font-sans text-white/50 font-medium w-full md:w-auto">
               <span>© 2026 Kidfile</span>
-              <div className="flex gap-6">
-                <Link to="/privacy" className="hover:text-white transition-colors">Privacy</Link>
-                <a href="#" className="hover:text-white transition-colors">Terms</a>
+              <div className="flex flex-wrap gap-4 md:gap-6">
+                <Link to="/trust-and-safety" className="hover:text-white transition-colors">Your Family's Privacy</Link>
+                <Link to="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
+                <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
               </div>
             </div>
 

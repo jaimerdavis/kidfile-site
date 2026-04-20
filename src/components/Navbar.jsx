@@ -37,6 +37,7 @@ export default function Navbar() {
             <a href={getHref('#features')} className="hover:text-honey transition-colors">Features</a>
             <a href={getHref('#pricing')} className="hover:text-honey transition-colors">Pricing</a>
             <Link to="/faq" className="hover:text-honey transition-colors">FAQ</Link>
+            <Link to="/trust-and-safety" className="hover:text-honey transition-colors">Trust & Safety</Link>
           </div>
 
           <div className="hidden md:block">
@@ -65,6 +66,7 @@ export default function Navbar() {
           <a href={getHref('#features')} onClick={() => setMobileMenuOpen(false)}>Features</a>
           <a href={getHref('#pricing')} onClick={() => setMobileMenuOpen(false)}>Pricing</a>
           <Link to="/faq" onClick={() => setMobileMenuOpen(false)}>FAQ</Link>
+          <Link to="/trust-and-safety" onClick={() => setMobileMenuOpen(false)}>Trust & Safety</Link>
           <a 
             href={getHref('#get-started')} 
             onClick={() => setMobileMenuOpen(false)}
