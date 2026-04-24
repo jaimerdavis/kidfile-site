@@ -34,7 +34,7 @@ export default function Navbar() {
           
           <div className="hidden md:flex items-center gap-8 text-deep-navy font-medium font-sans">
             <a href={getHref('#how')} className="hover:text-honey transition-colors">How It Works</a>
-            <a href={getHref('#features')} className="hover:text-honey transition-colors">Features</a>
+            <Link to="/features" className="hover:text-honey transition-colors">Features</Link>
             <a href={getHref('#pricing')} className="hover:text-honey transition-colors">Pricing</a>
             <Link to="/faq" className="hover:text-honey transition-colors">FAQ</Link>
             <Link to="/trust-and-safety" className="hover:text-honey transition-colors">Trust & Safety</Link>
@@ -63,7 +63,7 @@ export default function Navbar() {
       >
         <div className="flex flex-col items-center gap-8 text-2xl font-bold font-sans text-deep-navy">
           <a href={getHref('#how')} onClick={() => setMobileMenuOpen(false)}>How It Works</a>
-          <a href={getHref('#features')} onClick={() => setMobileMenuOpen(false)}>Features</a>
+          <Link to="/features" onClick={() => setMobileMenuOpen(false)}>Features</Link>
           <a href={getHref('#pricing')} onClick={() => setMobileMenuOpen(false)}>Pricing</a>
           <Link to="/faq" onClick={() => setMobileMenuOpen(false)}>FAQ</Link>
           <Link to="/trust-and-safety" onClick={() => setMobileMenuOpen(false)}>Trust & Safety</Link>

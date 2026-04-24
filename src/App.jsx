@@ -15,6 +15,8 @@ import FAQ from './components/FAQ'
 import TrustAndSafety from './components/TrustAndSafety'
 import HelpCenter from './components/HelpCenter'
 import Contact from './components/Contact'
+import FeaturesPage from './components/FeaturesPage'
+import TermsOfService from './components/TermsOfService'
 
 function App() {
   return (
@@ -34,12 +36,14 @@ function App() {
                 <Pricing />
               </main>
             } />
+            <Route path="/features" element={<FeaturesPage />} />
             <Route path="/privacy" element={<PrivacyPolicy />} />
             <Route path="/privacy/delete-account" element={<DeleteAccount />} />
             <Route path="/faq" element={<FAQ />} />
             <Route path="/trust-and-safety" element={<TrustAndSafety />} />
             <Route path="/help" element={<HelpCenter />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/terms" element={<TermsOfService />} />
           </Routes>
         </div>
         <FooterCTA />
